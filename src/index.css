@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "ggsans";
+  src: url('assets/fonts/gg-sans-font-family/gg-sans-Regular.ttf');
+}
+@font-face {
+  font-family: 'ginto';
+  src: url('./assets/fonts/ginto-font-family/ABCGintoNordCondensed-Bold-Trial-BF651b7b739fc14.woff') format('woff');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -20,7 +29,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+  font-family: 'ggsans';
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
