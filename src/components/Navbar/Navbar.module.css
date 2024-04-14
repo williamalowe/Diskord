@@ -1,0 +1,34 @@
+.navbar {
+  background: var(--discord-blue);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1180px;
+  min-height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  font-family: 'ginto';
+  font-size: 1.5rem
+}
+.links {
+  display: flex;
+  gap: 2rem;
+}
+.links>a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.links>a:hover{
+  text-decoration: underline;
+}
+.login>button {
+  font-family: 'ggsans';
+  font-weight: 800;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: none;
+}

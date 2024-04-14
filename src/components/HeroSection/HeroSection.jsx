@@ -1,10 +1,11 @@
-
+import Navbar from '../Navbar/Navbar';
+import styles from './HeroSection.module.css';
 
 const HeroSection = () => {
   return (
-    <div>
-      
-    </div>
+    <section className={styles.hero}>
+      <Navbar />
+    </section>
   )
 }
 
