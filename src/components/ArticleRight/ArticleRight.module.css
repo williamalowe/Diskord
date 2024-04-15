@@ -1,0 +1,17 @@
+.article {
+  background: #fff;
+  /* width: 840px; */
+  max-width: 1180px;
+  padding: 120px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.article>div {
+  flex: 1;
+}
+.left>img {
+  height: 400px;
+}
