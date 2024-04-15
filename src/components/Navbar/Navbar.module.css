@@ -36,6 +36,8 @@
 .login>button {
   font-family: 'ggsans';
   font-weight: 800;
+  width: 66px;
+  height: 38px;
   letter-spacing: 1px;
   padding: 0.5rem 0.75rem;
   border-radius: 2rem;
