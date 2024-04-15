@@ -1,4 +1,5 @@
 .banner {
+  background: var(--discord-blue);
   min-height: 640px;
   background-image: url('./public/hero3.svg'), url('./public/hero2.svg'), url('./public/hero1.svg') ;
   background-position: -20% 100%, 120% 100%, 50% 100%;
