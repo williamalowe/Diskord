@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <FontAwesomeIcon icon={faDiscord} />
-        &nbsp;Diskord
+        <h3>Diskord</h3>
       </div>
       <div className={styles.links}>
         <a href="#">Download</a>

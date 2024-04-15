@@ -10,8 +10,16 @@
   margin-right: auto;
 }
 .logo {
+  height: 34px;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo>h3 {
   font-family: 'ginto';
-  font-size: 1.5rem
+  font-size: 1.2rem;
+  letter-spacing: 1px;
 }
 .links {
   display: flex;
@@ -28,7 +36,8 @@
 .login>button {
   font-family: 'ggsans';
   font-weight: 800;
-  padding: 0.5rem 1rem;
+  letter-spacing: 1px;
+  padding: 0.5rem 0.75rem;
   border-radius: 2rem;
   border: none;
 }
