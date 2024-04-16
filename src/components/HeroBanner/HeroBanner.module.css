@@ -44,8 +44,19 @@
   font-family: 'ggsans';
   border-radius: 2rem;
   border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 .button_wrapper>button:last-child {
   background: #23272a;
   color: #fff;
+}
+.button_wrapper>button:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.button_wrapper>button:first-child:hover {
+  color: var(--discord-blue);
+}
+.button_wrapper>button:last-child:hover {
+  opacity: 0.8;
 }
