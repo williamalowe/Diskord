@@ -1,5 +1,6 @@
 import ArticleLeft from '../../components/ArticleLeft/ArticleLeft';
 import ArticleRight from '../../components/ArticleRight/ArticleRight';
+import BannerArticle from '../../components/BannerArticle/BannerArticle';
 import HeroBanner from '../../components/HeroBanner/HeroBanner';
 import styles from './App.module.css';
 
@@ -22,6 +23,7 @@ const App = () => {
         text='Get any community running with moderation tools and custom member access. Give members special powers, set up private channels and more.'
         img='./article3.svg'
       />
+      <BannerArticle />
     </main>
   )
 }

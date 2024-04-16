@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 2rem;
 }
 .right>img {
   height: 380px;

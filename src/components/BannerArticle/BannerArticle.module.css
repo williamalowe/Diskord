@@ -1,0 +1,61 @@
+.banner {
+  background: #F6F6F6;
+  padding: 120px 0;
+  display: grid;
+  place-items: center;
+}
+.content {
+  max-width: 1180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.content>h3 {
+  font-family: 'ginto';
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.content>p {
+  width: 1000px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+.content>img {
+  width: 100%;
+}
+.rotate {
+  transform: rotate(90deg)
+}
+.button_wrapper {
+  padding-top: 100px;
+  width: 990px;
+  height: 150px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: url('./stars.svg');
+  background-size: 990px, 150px;
+  background-repeat: no-repeat;
+}
+.button_wrapper>h5 {
+  font-size: 32px;
+}
+.button_wrapper>button {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  height: 56px;
+  padding: 0 2rem;
+  font-family: 'ggsans';
+  border-radius: 2rem;
+  border: none;
+  background: var(--discord-blue);
+  color: #fff;
+}
