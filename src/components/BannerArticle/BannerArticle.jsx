@@ -1,11 +1,26 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
 import styles from './BannerArticle.module.css';
 
 const BannerArticle = () => {
   return (
     <div className={styles.banner}>
-      <div className={styles.content}>
+      <motion.div 
+        className={styles.content}
+        initial={{
+          opacity: 0,
+          y: 20
+        }}
+        whileInView={{
+          opacity: 1,
+          y: 0,
+          transition: {
+            duration: 1
+          }
+        }}
+        viewport={{ once: true }}
+      >
       <h3>Reliable Tech for staying close</h3>
       <p>
         Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games or gather together over a drawing session with Screen Share.
@@ -20,7 +35,7 @@ const BannerArticle = () => {
             &nbsp;Download for Linux
           </button>
       </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
