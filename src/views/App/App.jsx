@@ -2,6 +2,7 @@ import ArticleLeft from '../../components/ArticleLeft/ArticleLeft';
 import ArticleRight from '../../components/ArticleRight/ArticleRight';
 import BannerArticle from '../../components/BannerArticle/BannerArticle';
 import Footer from '../../components/Footer/Footer';
+import FooterLogo from '../../components/FooterLogo/FooterLogo';
 import HeroBanner from '../../components/HeroBanner/HeroBanner';
 import styles from './App.module.css';
 
@@ -26,6 +27,7 @@ const App = () => {
       />
       <BannerArticle />
       <Footer />
+      <FooterLogo />
     </main>
   )
 }

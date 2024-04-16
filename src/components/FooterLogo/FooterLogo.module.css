@@ -1,0 +1,40 @@
+.footer_logo {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background: #23272A;
+  display: grid;
+  place-items: center;
+}
+.wrapper {
+  width: 1180px;
+  display: flex;
+}
+.wrapper>div {
+  flex: 1;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+}
+.logo>svg {
+  height: 26px;
+}
+.logo>h3 {
+  font-family: 'ginto';
+  font-size: 20px;
+}
+.button {
+  display: flex;
+  justify-content: end;
+}
+.button>button {
+  background: #5865F2;
+  border: none;
+  height: 38px;
+  width: 78px;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 2rem;
+}
