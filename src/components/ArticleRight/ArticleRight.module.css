@@ -1,8 +1,11 @@
 .article {
   background: #fff;
-  max-width: 1180px;
   padding: 120px 0;
-  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+.content {
+  width: 1180px;
   display: flex;
   align-items: center;
   justify-content: center;
