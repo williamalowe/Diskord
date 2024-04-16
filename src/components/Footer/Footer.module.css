@@ -1,5 +1,5 @@
 .footer {
-  padding-top: 120px;
+  padding-top: 60px;
   background: #23272A;
   color: #fff;
   display: grid;
@@ -8,7 +8,7 @@
 .wrapper {
   width: 1180px;
   display: flex;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #5865f2;
 }
 .lang {
@@ -22,6 +22,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  cursor: pointer;
 }
 .language>img {
   width: 24px;
@@ -35,6 +36,7 @@
 .logos>svg {
   width: 24px;
   height: 25px;
+  cursor: pointer;
 }
 .links {
   flex: 2;
@@ -52,4 +54,10 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+.section>ul>li {
+  cursor: pointer;
+}
+.section>ul>li:hover {
+  text-decoration: underline;
 }
