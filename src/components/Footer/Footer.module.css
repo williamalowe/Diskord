@@ -1,0 +1,55 @@
+.footer {
+  padding-top: 120px;
+  background: #23272A;
+  color: #fff;
+  display: grid;
+  place-items: center;
+}
+.wrapper {
+  width: 1180px;
+  display: flex;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #5865f2;
+}
+.lang {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.language {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.language>img {
+  width: 24px;
+  height: 18px;
+}
+.logos {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 24px;
+}
+.logos>svg {
+  width: 24px;
+  height: 25px;
+}
+.links {
+  flex: 2;
+  display: flex;
+}
+.section {
+  flex: 1;
+}
+.section>h5 {
+  font-weight: 500;
+  color: #5865f2;
+  margin-bottom: 24px;
+}
+.section>ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
