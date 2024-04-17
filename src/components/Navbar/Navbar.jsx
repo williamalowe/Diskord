@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faArrowRightToBracket, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
   const [toggleMobNav, setToggleMobNav] = useState(false);
@@ -36,34 +37,47 @@ const Navbar = () => {
             </button>
           </div>
       }
+      <AnimatePresence>
       {
-        toggleMobNav && 
-          <div className={styles.mob_sidebar}>
-            <nav className={styles.mob_nav}>
-              <div className={styles.logo}>
-                <FontAwesomeIcon icon={faDiscord} />
-                <h3>Diskord</h3>
-                <button onClick={() => setToggleMobNav(false)}>
-                  <FontAwesomeIcon icon={faXmark} />
-                </button>
-              </div>
-              <ul className={styles.mob_links}>
-                <li>Download</li>
-                <li>Nitro</li>
-                <li>Safety</li>
-                <li>Support</li>
-                <li>Blog</li>
-                <li>Careers</li>
-              </ul>
-              <div className={styles.mob_download}>
-                <button>
-                  <FontAwesomeIcon icon={faArrowRightToBracket} />
-                  <h3>Download</h3>
-                </button>
-              </div>
-            </nav>
-          </div>
+        toggleMobNav &&
+        <motion.div 
+          className={styles.mob_sidebar}
+          initial={{
+            width: 0
+          }}
+          animate={{
+            width: '90vw'
+          }}
+          exit={{
+            width: 0
+          }}
+        >
+          <nav className={styles.mob_nav}>
+            <div className={styles.logo}>
+              <FontAwesomeIcon icon={faDiscord} />
+              <h3>Diskord</h3>
+              <button onClick={() => setToggleMobNav(false)}>
+                <FontAwesomeIcon icon={faXmark} />
+              </button>
+            </div>
+            <ul className={styles.mob_links}>
+              <li>Download</li>
+              <li>Nitro</li>
+              <li>Safety</li>
+              <li>Support</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+            <div className={styles.mob_download}>
+              <button>
+                <FontAwesomeIcon icon={faArrowRightToBracket} />
+                <h3>Download</h3>
+              </button>
+            </div>
+          </nav>
+        </motion.div>
       }
+      </AnimatePresence>
     </nav>
   )
 }
