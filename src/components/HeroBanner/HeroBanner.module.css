@@ -84,6 +84,11 @@
   height: 20px;
 }
 @media screen and (max-width: 768px) {
+  .banner {
+    background-image: url('./public/hero3.svg');
+    background-position: 150% 100%;
+    background-size: 110%;
+  }
   .content {
     padding-top: 60px;
     width: 324px;
