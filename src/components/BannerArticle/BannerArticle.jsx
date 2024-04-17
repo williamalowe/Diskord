@@ -35,6 +35,12 @@ const BannerArticle = () => {
             </div>
             &nbsp;Download for Linux
           </button>
+          <button className={styles.mob_button}>
+            <div className={styles.rotate}>
+                <FontAwesomeIcon icon={faArrowRightToBracket} /> 
+              </div>
+              <h5>Download on Google Play</h5>
+          </button>
       </div>
       </motion.div>
     </div>

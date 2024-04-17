@@ -25,8 +25,8 @@ const App = () => {
         text='Get any community running with moderation tools and custom member access. Give members special powers, set up private channels and more.'
         img='./article3.svg'
       />
-      {/* <BannerArticle />
-      <Footer />
+      <BannerArticle />
+      {/* <Footer />
       <FooterLogo /> */}
     </main>
   )
