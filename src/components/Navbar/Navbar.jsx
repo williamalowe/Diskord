@@ -69,10 +69,20 @@ const Navbar = () => {
               <li>Careers</li>
             </ul>
             <div className={styles.mob_download}>
-              <button>
+              <motion.button
+                initial={{
+                  x: 100
+                }}
+                animate={{
+                  x: 0
+                }}
+                exit={{
+                  x: 100
+                }}
+              >
                 <FontAwesomeIcon icon={faArrowRightToBracket} />
                 <h3>Download</h3>
-              </button>
+              </motion.button>
             </div>
           </nav>
         </motion.div>
