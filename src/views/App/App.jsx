@@ -10,12 +10,11 @@ const App = () => {
   return (
     <main className={styles.app}>
       <HeroBanner />
-        <ArticleRight  
+        {/* <ArticleRight  
           header='Create an invite-only place where you belong'
           text='Discord servers are organised into topic-based channels where you can collaborate, share and just talk about your day without clogging up a group chat.'
           img='./article1.svg'
         />
-      {/* </motion.div> */}
       <ArticleLeft 
         header='Where hanging out is easy'
         text='Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.'
@@ -28,7 +27,7 @@ const App = () => {
       />
       <BannerArticle />
       <Footer />
-      <FooterLogo />
+      <FooterLogo /> */}
     </main>
   )
 }

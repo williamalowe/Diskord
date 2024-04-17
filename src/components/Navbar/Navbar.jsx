@@ -1,14 +1,21 @@
 import styles from './Navbar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faBars, faArrowRightToBracket, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
 const Navbar = () => {
+  const [toggleMobNav, setToggleMobNav] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>
-        <FontAwesomeIcon icon={faDiscord} />
-        <h3>Diskord</h3>
-      </div>
+      {
+        !toggleMobNav && 
+          <div className={styles.logo}>
+              <FontAwesomeIcon icon={faDiscord} />
+              <h3>Diskord</h3>
+           </div>
+      }
+      
       <div className={styles.links}>
         <a href="#">Download</a>
         <a href="#">Nitro</a>
@@ -21,6 +28,42 @@ const Navbar = () => {
       <div className={styles.login}>
         <button>Login</button>
       </div>
+      {
+        !toggleMobNav &&
+          <div className={styles.mob_menu}>
+            <button onClick={() => setToggleMobNav(true)}>
+              <FontAwesomeIcon icon={faBars} />
+            </button>
+          </div>
+      }
+      {
+        toggleMobNav && 
+          <div className={styles.mob_sidebar}>
+            <nav className={styles.mob_nav}>
+              <div className={styles.logo}>
+                <FontAwesomeIcon icon={faDiscord} />
+                <h3>Diskord</h3>
+                <button onClick={() => setToggleMobNav(false)}>
+                  <FontAwesomeIcon icon={faXmark} />
+                </button>
+              </div>
+              <ul className={styles.mob_links}>
+                <li>Download</li>
+                <li>Nitro</li>
+                <li>Safety</li>
+                <li>Support</li>
+                <li>Blog</li>
+                <li>Careers</li>
+              </ul>
+              <div className={styles.mob_download}>
+                <button>
+                  <FontAwesomeIcon icon={faArrowRightToBracket} />
+                  <h3>Download</h3>
+                </button>
+              </div>
+            </nav>
+          </div>
+      }
     </nav>
   )
 }
