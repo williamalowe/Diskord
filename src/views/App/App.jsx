@@ -27,7 +27,7 @@ const App = () => {
       />
       <BannerArticle />
       <Footer />
-      {/* <FooterLogo /> */}
+      <FooterLogo />
     </main>
   )
 }

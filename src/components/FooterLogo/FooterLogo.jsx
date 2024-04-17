@@ -12,6 +12,7 @@ const FooterLogo = () => {
         </div>
         <div className={styles.button}>
           <button>Sign Up</button>
+          <button className={styles.mob_button}>Download</button>
         </div>
       </div>
     </div>
