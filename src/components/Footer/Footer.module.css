@@ -61,3 +61,19 @@
 .section>ul>li:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .lang {
+    gap: 0rem;
+  }
+  .wrapper {
+    width: 324px;
+    flex-direction: column;
+  }
+  .links {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}

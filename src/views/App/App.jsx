@@ -26,8 +26,8 @@ const App = () => {
         img='./article3.svg'
       />
       <BannerArticle />
-      {/* <Footer />
-      <FooterLogo /> */}
+      <Footer />
+      {/* <FooterLogo /> */}
     </main>
   )
 }
