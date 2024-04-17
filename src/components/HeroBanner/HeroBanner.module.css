@@ -60,3 +60,46 @@
 .button_wrapper>button:last-child:hover {
   opacity: 0.8;
 }
+.mob_button {
+  display: none;
+}
+.mob_button>button {
+  width: 320px;
+  height: 80px;
+  background: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  text-align: left;
+}
+.mob_button>button>h5 {
+  flex: 1;
+  font-size: 20px;
+  font-weight: 400;
+}
+.mob_button>button>.rotate>svg {
+  height: 20px;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    padding-top: 60px;
+    width: 324px;
+    text-align: left
+  }
+  .content>h1 {
+    font-size: 1.5rem;
+  }
+  .content>p {
+    font-size: 1rem;
+    margin: 16px 0;
+  }
+  .button_wrapper {
+    display: none;
+  }
+  .mob_button {
+    display: block;
+  }
+}
