@@ -65,7 +65,7 @@
 }
 .mob_sidebar {
   z-index: 100;
-  position: absolute;
+  position: fixed;
   background: #fff;
   height: 100vh;
   width: 90vw;
@@ -74,7 +74,6 @@
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   color: #000;
-  /* width: 0; */
 }
 .mob_nav {
   height: 100%;
@@ -121,7 +120,6 @@
   height: 38px;
   border-radius: 40px;
   padding: 1rem;
-  font: 0weize;
 }
 .mob_download>button>svg {
   transform: rotate(90deg);
