@@ -1,7 +1,7 @@
 .banner {
   background: var(--discord-blue);
   min-height: 640px;
-  background-image: url('./public/hero3.svg'), url('./public/hero2.svg'), url('./public/hero1.svg') ;
+  background-image: url('/hero3.svg'), url('/hero2.svg'), url('/hero1.svg') ;
   background-position: -20% 100%, 120% 100%, 50% 100%;
   background-repeat: no-repeat;
   background-size: 600px, 600px, auto;
@@ -85,7 +85,7 @@
 }
 @media screen and (max-width: 768px) {
   .banner {
-    background-image: url('./public/hero3.svg');
+    background-image: url('/hero3.svg');
     background-position: 150% 100%;
     background-size: 110%;
   }
