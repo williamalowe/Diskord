@@ -1,7 +1,7 @@
 .footer_logo {
   padding-top: 30px;
   padding-bottom: 60px;
-  background: #23272A;
+  background: #23272a;
   display: grid;
   place-items: center;
 }
@@ -17,11 +17,11 @@
   color: #fff;
   cursor: pointer;
 }
-.logo>svg {
+.logo > svg {
   height: 26px;
 }
-.logo>h3 {
-  font-family: 'ginto';
+.logo > h3 {
+  font-family: "ginto";
   font-size: 20px;
 }
 .button {
@@ -29,8 +29,8 @@
   display: flex;
   justify-content: end;
 }
-.button>button {
-  background: #5865F2;
+.button > button {
+  background: #5865f2;
   border: none;
   height: 38px;
   width: 78px;
@@ -40,12 +40,12 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.button>button:hover {
+.button > button:hover {
   background-color: #7e87eb;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
   opacity: 0.9;
 }
-.button>.mob_button {
+.button > .mob_button {
   display: none;
   padding: 0 1rem;
   width: fit-content;
@@ -57,10 +57,10 @@
   .wrapper {
     width: 324px;
   }
-  .button>button {
+  .button > button {
     display: none;
   }
-  .button>.mob_button {
+  .button > .mob_button {
     display: block;
   }
 }

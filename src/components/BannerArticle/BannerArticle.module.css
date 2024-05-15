@@ -1,5 +1,5 @@
 .banner {
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding: 120px 0;
   display: grid;
   place-items: center;
@@ -12,23 +12,23 @@
   justify-content: center;
   gap: 1.5rem;
 }
-.content>h3 {
-  font-family: 'ginto';
+.content > h3 {
+  font-family: "ginto";
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
 }
-.content>p {
+.content > p {
   width: 1000px;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
 }
-.content>img {
+.content > img {
   width: 100%;
 }
 .rotate {
-  transform: rotate(90deg)
+  transform: rotate(90deg);
 }
 .button_wrapper {
   padding-top: 100px;
@@ -40,20 +40,20 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background: url('./stars.svg');
+  background: url("./stars.svg");
   background-size: 990px, 150px;
   background-repeat: no-repeat;
 }
-.button_wrapper>h5 {
+.button_wrapper > h5 {
   font-size: 32px;
 }
-.button_wrapper>button {
+.button_wrapper > button {
   display: flex;
   align-items: center;
   font-size: 20px;
   height: 56px;
   padding: 0 2rem;
-  font-family: 'ggsans';
+  font-family: "ggsans";
   border-radius: 2rem;
   border: none;
   background: var(--discord-blue);
@@ -61,17 +61,17 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.button_wrapper>button:hover {
+.button_wrapper > button:hover {
   opacity: 0.6;
   box-shadow: -0px 8px 4px rgba(0, 0, 0, 0.25);
 }
-.button_wrapper>.mob_button {
+.button_wrapper > .mob_button {
   display: none;
   align-items: center;
   width: 324px;
   padding: 2rem;
 }
-.mob_button>h5 {
+.mob_button > h5 {
   flex: 1;
 }
 
@@ -82,14 +82,14 @@
   .content {
     width: 324px;
   }
-  .content>h3 {
+  .content > h3 {
     font-size: 2.4rem;
   }
-  .content>p {
+  .content > p {
     font-size: 1rem;
     width: 324px;
   }
-  .content>img {
+  .content > img {
     height: 196px;
   }
   .button_wrapper {
@@ -97,14 +97,14 @@
     background-size: 324px, 100px;
     padding-top: 0px;
   }
-  .button_wrapper>button {
+  .button_wrapper > button {
     display: none;
   }
-  .button_wrapper>h5 {
+  .button_wrapper > h5 {
     font-size: 32px;
     text-align: center;
   }
-  .button_wrapper>.mob_button {
+  .button_wrapper > .mob_button {
     display: flex;
   }
-} 
+}

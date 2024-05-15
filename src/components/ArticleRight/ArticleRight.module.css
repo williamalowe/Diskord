@@ -11,7 +11,7 @@
   justify-content: center;
   gap: 2rem;
 }
-.left>img {
+.left > img {
   height: 380px;
 }
 .left {
@@ -23,13 +23,13 @@
   flex-direction: column;
   gap: 1.5rem;
 }
-.right>h3 {
+.right > h3 {
   width: 380px;
   font-weight: 800;
   font-size: 3rem;
   line-height: 48px;
 }
-.right>p {
+.right > p {
   width: 380px;
   font-size: 20px;
   line-height: 28px;
@@ -43,18 +43,18 @@
     width: 324px;
     flex-direction: column;
   }
-  .left>img {
+  .left > img {
     height: 210px;
   }
   .right {
     padding: 1rem;
   }
-  .right>h3 {
+  .right > h3 {
     font-size: 1.5rem;
     width: 324px;
     line-height: 130%;
   }
-  .right>p {
+  .right > p {
     font-size: 1rem;
     width: 324px;
     line-height: 22px;

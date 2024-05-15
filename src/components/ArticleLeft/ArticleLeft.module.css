@@ -1,5 +1,5 @@
 .article {
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding: 120px 0;
   display: grid;
   place-items: center;
@@ -11,7 +11,7 @@
   justify-content: center;
   gap: 2rem;
 }
-.right>img {
+.right > img {
   height: 380px;
 }
 .right {
@@ -23,13 +23,13 @@
   flex-direction: column;
   gap: 1.5rem;
 }
-.left>h3 {
+.left > h3 {
   width: 380px;
   font-weight: 800;
   font-size: 3rem;
   line-height: 48px;
 }
-.left>p {
+.left > p {
   width: 380px;
   font-size: 20px;
   line-height: 28px;
@@ -43,18 +43,18 @@
     width: 324px;
     flex-direction: column-reverse;
   }
-  .right>img {
+  .right > img {
     height: 210px;
   }
   .left {
     padding: 1rem;
   }
-  .left>h3 {
+  .left > h3 {
     font-size: 1.5rem;
     width: 324px;
     line-height: 130%;
   }
-  .left>p {
+  .left > p {
     font-size: 1rem;
     width: 324px;
     line-height: 22px;

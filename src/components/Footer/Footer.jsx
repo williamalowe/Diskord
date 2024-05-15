@@ -1,7 +1,13 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
-import { faXTwitter, faInstagram, faFacebook, faYoutube, faTiktok } from '@fortawesome/free-brands-svg-icons';
-import styles from './Footer.module.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faXTwitter,
+  faInstagram,
+  faFacebook,
+  faYoutube,
+  faTiktok,
+} from "@fortawesome/free-brands-svg-icons";
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
@@ -73,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
-import styles from './FooterLogo.module.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
+import styles from "./FooterLogo.module.css";
 
 const FooterLogo = () => {
   return (
@@ -16,7 +16,7 @@ const FooterLogo = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FooterLogo
+export default FooterLogo;

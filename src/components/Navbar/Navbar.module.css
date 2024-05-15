@@ -17,8 +17,8 @@
   gap: 0.5rem;
   cursor: pointer;
 }
-.logo>h3 {
-  font-family: 'ginto';
+.logo > h3 {
+  font-family: "ginto";
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
@@ -26,16 +26,16 @@
   display: flex;
   gap: 3rem;
 }
-.links>a {
+.links > a {
   color: #fff;
   font-weight: 600;
   text-decoration: none;
 }
-.links>a:hover{
+.links > a:hover {
   text-decoration: underline;
 }
-.login>button {
-  font-family: 'ggsans';
+.login > button {
+  font-family: "ggsans";
   font-weight: 800;
   width: 66px;
   height: 38px;
@@ -46,7 +46,7 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.login>button:hover {
+.login > button:hover {
   color: var(--discord-blue);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
@@ -54,11 +54,11 @@
   display: none;
   padding-right: 5%;
 }
-.mob_menu>button {
+.mob_menu > button {
   background: none;
   border: none;
 }
-.mob_menu>button>svg {
+.mob_menu > button > svg {
   width: 30px;
   height: 30px;
   color: #fff;
@@ -80,25 +80,25 @@
   display: flex;
   flex-direction: column;
 }
-.mob_nav>.logo {
+.mob_nav > .logo {
   height: 80px;
   margin: 0 1rem;
   border-bottom: 1px solid #c8c8c8e1;
   display: flex;
 }
-.mob_nav>.logo>button {
+.mob_nav > .logo > button {
   margin-left: auto;
   border: none;
   background: none;
 }
-.mob_nav>.logo>button>svg {
+.mob_nav > .logo > button > svg {
   height: 20px;
 }
 .mob_links {
   margin-top: 20px;
   margin: 20px 1rem;
 }
-.mob_links>li {
+.mob_links > li {
   height: 40px;
   margin-left: 20px;
   font-weight: 600;
@@ -110,7 +110,7 @@
   align-items: center;
   justify-content: center;
 }
-.mob_download>button {
+.mob_download > button {
   background: #5865f2;
   display: flex;
   align-items: center;
@@ -121,11 +121,11 @@
   border-radius: 40px;
   padding: 1rem;
 }
-.mob_download>button>svg {
+.mob_download > button > svg {
   transform: rotate(90deg);
   height: 20px;
 }
-.mob_download>button>h3 {
+.mob_download > button > h3 {
   flex: 1;
   font-weight: 600;
   font-size: 1rem;

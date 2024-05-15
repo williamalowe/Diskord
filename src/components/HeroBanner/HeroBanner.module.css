@@ -1,8 +1,11 @@
 .banner {
   background: var(--discord-blue);
   min-height: 640px;
-  background-image: url('/hero3.svg'), url('/hero2.svg'), url('/hero1.svg') ;
-  background-position: -20% 100%, 120% 100%, 50% 100%;
+  background-image: url("/hero3.svg"), url("/hero2.svg"), url("/hero1.svg");
+  background-position:
+    -20% 100%,
+    120% 100%,
+    50% 100%;
   background-repeat: no-repeat;
   background-size: 600px, 600px, auto;
 }
@@ -13,21 +16,21 @@
   margin: 0 auto;
   text-align: center;
 }
-.content>h1 {
+.content > h1 {
   font-size: 4rem;
-  font-family: 'ginto';
+  font-family: "ginto";
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 1px;
 }
-.content>p {
+.content > p {
   font-size: 20px;
   line-height: 1.625;
   margin-top: 24px;
   color: #fff;
 }
 .rotate {
-  transform: rotate(90deg)
+  transform: rotate(90deg);
 }
 .button_wrapper {
   margin-top: 1rem;
@@ -35,35 +38,35 @@
   justify-content: center;
   gap: 1rem;
 }
-.button_wrapper>button {
+.button_wrapper > button {
   display: flex;
   align-items: center;
   font-size: 20px;
   height: 56px;
   padding: 0 2rem;
-  font-family: 'ggsans';
+  font-family: "ggsans";
   border-radius: 2rem;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-.button_wrapper>button:last-child {
+.button_wrapper > button:last-child {
   background: #23272a;
   color: #fff;
 }
-.button_wrapper>button:hover {
+.button_wrapper > button:hover {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
-.button_wrapper>button:first-child:hover {
+.button_wrapper > button:first-child:hover {
   color: var(--discord-blue);
 }
-.button_wrapper>button:last-child:hover {
+.button_wrapper > button:last-child:hover {
   opacity: 0.8;
 }
 .mob_button {
   display: none;
 }
-.mob_button>button {
+.mob_button > button {
   width: 320px;
   height: 80px;
   background: #fff;
@@ -75,17 +78,17 @@
   border-radius: 2rem;
   text-align: left;
 }
-.mob_button>button>h5 {
+.mob_button > button > h5 {
   flex: 1;
   font-size: 20px;
   font-weight: 400;
 }
-.mob_button>button>.rotate>svg {
+.mob_button > button > .rotate > svg {
   height: 20px;
 }
 @media screen and (max-width: 768px) {
   .banner {
-    background-image: url('/hero3.svg');
+    background-image: url("/hero3.svg");
     background-position: 150% 100%;
     background-size: 110%;
   }
@@ -93,12 +96,12 @@
     margin-top: 80px;
     padding-top: 60px;
     width: 324px;
-    text-align: left
+    text-align: left;
   }
-  .content>h1 {
+  .content > h1 {
     font-size: 1.5rem;
   }
-  .content>p {
+  .content > p {
     font-size: 1rem;
     margin: 16px 0;
   }

@@ -1,22 +1,22 @@
-import styles from './ArticleRight.module.css';
-import { motion } from 'framer-motion';
+import styles from "./ArticleRight.module.css";
+import { motion } from "framer-motion";
 
-const ArticleRight = ({ header, text, img}) => {
+const ArticleRight = ({ header, text, img }) => {
   return (
     <article className={styles.article}>
-      <motion.div 
+      <motion.div
         className={styles.content}
         initial={{
           opacity: 0,
-          y: 20
+          y: 20,
         }}
         whileInView={{
           opacity: 1,
           y: 0,
           transition: {
             duration: 1,
-            delay: 0.25
-          }
+            delay: 0.25,
+          },
         }}
         viewport={{ once: true }}
       >
@@ -29,7 +29,7 @@ const ArticleRight = ({ header, text, img}) => {
         </div>
       </motion.div>
     </article>
-  )
-}
+  );
+};
 
-export default ArticleRight
+export default ArticleRight;
